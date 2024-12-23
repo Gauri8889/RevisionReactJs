@@ -13,7 +13,6 @@ function App() {
     border:"2px solid red",
     borderRadius:"20px",
     padding:"20px"
-
   };
   return(
   <>
