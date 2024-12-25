@@ -30,6 +30,7 @@ function App() {
 
     </p>
     {/* Ternary Operater */}
+    
      <h1>{x>5 ? "Number is grater ":"Number is smaller"}</h1>
   </>
   )
