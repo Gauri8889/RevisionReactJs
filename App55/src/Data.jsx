@@ -1,15 +1,15 @@
 
 
-const Data=()=> {
+// const Data=()=> {
   
 
-    return (
-      <>
-       <h1>This is data part</h1>
-       <hr />
-      </>
-    )
-  }
+//     return (
+//       <>
+//        <h1>This is data part</h1>
+//        <hr />
+//       </>
+//     )
+//   }
   
-  export default Data;
+//   export default Data;
   
