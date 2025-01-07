@@ -1,3 +1,4 @@
+// 3th method
 const Emplyee = [
     {
       "empno":1001,
@@ -22,6 +23,6 @@ const Emplyee = [
         "name":"gauri dahake",
         "department":"clerck",
         "salary":"32400"
-      },
+      }
     ]
     export default EmpData;

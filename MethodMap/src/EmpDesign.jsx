@@ -1,4 +1,4 @@
-const EmpDesign=(props)=>{
+const EmpDesign = (props) =>{
     return(
         <>
         <tr>
@@ -9,5 +9,5 @@ const EmpDesign=(props)=>{
         </tr>
         </>
     )
-}
+};
 export default EmpDesign;
