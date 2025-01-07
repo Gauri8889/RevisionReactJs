@@ -3,7 +3,7 @@ import EmpDesign from "./EmpDesign";
 
 const ans = EmpData.map((key)=>
   <EmpDesign
-  eno = {key.eno}
+  eno = {key.empno}
   nm = {key.name}
   dept = {key.department}
   sal = {key.salary}/>
