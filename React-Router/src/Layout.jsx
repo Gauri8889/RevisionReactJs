@@ -5,7 +5,10 @@ const Layout=()=>{
       <>
          <Link to ="home">Home</Link> |
          <Link to ="About">About</Link> |
-         <Link to ="Contact">Contact</Link> 
+         <Link to ="Contact">Contact</Link> |
+         <Link to = "Service">Service</Link>  |
+         <Link to = "Nopage">Nopage</Link>
+
          <hr/>
          <Outlet/>
          <hr />
