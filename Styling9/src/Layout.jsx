@@ -1,16 +1,21 @@
-import { Link,Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
-const Layout=()=>{
-    return(
+const Layout = () => {
+    return (
         <> 
-            <Link to="home">Home</Link>
-            <Link to="about">about</Link>
-            <Link to="contact">Contact</Link>
-            <Link to="login">Login</Link>
-            <Link to="product">Product</Link>
+          <div className="nav">
+            <Link to="/home">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/login">Login</Link>
+            <Link to="/product">Product</Link>
+            <button>Sign Up</button>
+          </div>
 
-            <Outlet/>
+          {/* The Outlet component will render the matched route's component */}
+          <Outlet/>
         </>
-    )
-}
+    );
+};
+
 export default Layout;
