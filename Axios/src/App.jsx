@@ -4,7 +4,7 @@ import axios from "axios";
 const App=()=>{
   const [mydata,setMydata]= useState([]);//mydata=[]
   const loaData=()=>{
-    let api="";
+    let api="http://localhost:3000/student";
     axios.get(api).than((res)=>{
       console.log(res.data);
       setMydata(res.data);
