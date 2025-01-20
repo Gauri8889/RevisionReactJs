@@ -6,15 +6,15 @@ const Insert=()=>{
     const handleInput=(e)=>{
         let name=e.target.name;
         let value=e.target.value;
-        setInput(values=>({...values,[name]:value}));
+        setInput(values=>({...values, [name]:value}));
         console.log(input);
     }
     const handleSubmit=()=>{
         let api="http://localhost:3000/student";
 
-        axios.post(api,input).than((res)=>{
+        axios.post(api, input).then((res)=>{
             alert("Data save !!!")
-        })
+        });
     }
     return(
       <>

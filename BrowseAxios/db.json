@@ -1,46 +1,102 @@
 {
-    "student": [
-      {
-        "Rollno": "101",
-        "name": "Addi jain",
-        "city": "Indore",
-        "fees": "40000"
-      
-      },
-      {
-        "Rollno": "102",
-        "name": "Addi jain",
-        "city": "Indore",
-        "fees": "40000"
-      
-      },
-    
-      {
-        "Rollno": "103",
-        "name": "Addi jain",
-        "city": "Indore",
-        "fees": "40000"
-      
-      },
-    
-      {
-        "Rollno": "104",
-        "name": "Addi jain",
-        "city": "Indore",
-        "fees": "40000"
-      
-      },
-      {
-        "Rollno": "105",
-        "name": "Addi jain",
-        "city": "Indore",
-        "fees": "40000"
-      
-      }
-    
-    
-    
-      
-    ]
-  }
- 
+  "student": [
+    {
+      "Rollno": "101",
+      "name": "Addi jain",
+      "city": "Indore",
+      "fees": "40000",
+      "id": "e7fb"
+    },
+    {
+      "Rollno": "102",
+      "name": "Addi jain",
+      "city": "Indore",
+      "fees": "40000",
+      "id": "2fd6"
+    },
+    {
+      "Rollno": "103",
+      "name": "Addi jain",
+      "city": "Indore",
+      "fees": "40000",
+      "id": "926e"
+    },
+    {
+      "Rollno": "104",
+      "name": "Addi jain",
+      "city": "Indore",
+      "fees": "40000",
+      "id": "d2d2"
+    },
+    {
+      "Rollno": "105",
+      "name": "Addi jain",
+      "city": "Indore",
+      "fees": "40000",
+      "id": "1071"
+    },
+    {
+      "id": "9650",
+      "rollno": "1002",
+      "name": "sakshi",
+      "city": "indore",
+      "fees": "50000"
+    },
+    {
+      "id": "cb72",
+      "rollno": "1002",
+      "name": "sakshi",
+      "city": "indore",
+      "fees": "50000"
+    },
+    {
+      "id": "0939",
+      "rollno": "1002",
+      "name": "sakshi",
+      "city": "indore",
+      "fees": "50000"
+    },
+    {
+      "id": "28f0",
+      "rollno": "1002",
+      "name": "sakshi",
+      "city": "indore",
+      "fees": "50000"
+    },
+    {
+      "id": "9c8c",
+      "rollno": "1003",
+      "name": "rakhi",
+      "city": "chhindwara",
+      "fees": "300000"
+    },
+    {
+      "id": "e332",
+      "rollno": "1002",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "86868"
+    },
+    {
+      "id": "8297",
+      "rollno": "1001",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "676"
+    },
+    {
+      "id": "4b9f",
+      "rollno": "123",
+      "name": "ashafak",
+      "city": "nanded",
+      "fees": "12222"
+    },
+    {
+      "id": "7955",
+      "rollno": "1001",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "5645"
+    }
+  ]
+}

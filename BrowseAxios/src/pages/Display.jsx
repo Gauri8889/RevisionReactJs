@@ -5,7 +5,7 @@ const Display=()=>{
     const [mydata,setMydata]=useState([]);
     const laodData=()=>{
         let api="http://localhost:3000/student";
-        axios.get(api).than((res)=>{
+        axios.get(api).then((res)=>{
             console.log(res.data)
             setMydata(res.data);
         }).catch((err)=>{
@@ -19,8 +19,21 @@ const Display=()=>{
     const ans = mydata.map((key)=>{
         return(
             <>
-            <h1>Display Data</h1>
-            <table width="400" border="1" bgcolor="yellow">
+        
+            <tr>
+                <td>{key.rollno}</td>
+                <td>{key.name}</td>
+                <td>{key.city}</td>
+                <td>{key.fees}</td>
+            </tr>
+            </>
+        )
+
+    })
+    return(
+        <>
+
+        <table width="400" border="1" bgcolor="yellow">
                 <tr bgcolor="orange">
                     <th>Rollno</th>
                     <th>Name</th>
@@ -29,10 +42,9 @@ const Display=()=>{
                 </tr>
                 {ans}
             </table>
-            </>
-        )
-
-    })
+        
+        </>
+    )
    
   }
   export default Display;
