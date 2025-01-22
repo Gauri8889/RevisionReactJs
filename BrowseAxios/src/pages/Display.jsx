@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useState,useEffect } from "react";
-
 const Display=()=>{
     const [mydata,setMydata]=useState([]);
     const laodData=()=>{

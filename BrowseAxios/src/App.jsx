@@ -5,6 +5,7 @@ import Insert from "./pages/Insert";
 import Display from "./pages/Display";
 import Search from "./pages/Search";
 import Update from "./pages/update";
+import EditeData from "./pages/EditeData";
 
 
 const App=()=>{
@@ -20,6 +21,7 @@ const App=()=>{
       <Route path="Display" element={<Display/>}/>
       <Route path="search" element={<Search/>}/>
       <Route path="update" element={<Update/>}/>
+      <Route path="editeData" element={<EditeData/>}/>
       </Route>
 
     </Routes>
