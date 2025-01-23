@@ -1,13 +1,13 @@
-import { Children, createContext,useState } from "react";
+import { createContext,useState } from "react";
 const userContext =createContext();
 
 
-const MyContext=()=>{
+const MyContext=({children})=>{
     const [name ,setName]=useState("Aryan");
     return(
       <>
       <userContext.Provider  value={{name, setName}}>
-        {Children}
+        {children}
 
       </userContext.Provider>
       

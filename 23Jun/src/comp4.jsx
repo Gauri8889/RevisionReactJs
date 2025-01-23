@@ -1,15 +1,12 @@
-// import { useContext } from "react";
-// import { nameContext } from "./App";
+import Comp5 from "./comp5";
 
-// const Comp4=()=>{
-//     const {user}=useContext(nameContext)
-//     return(
-//       <>
-//       <h1>compnent -4</h1>
-//       <h1>hello khushi:{user}</h1>
-//       <button onClick={()=>{setUser("khushi dahake")}}>click here</button>
-//       </>
-//     )
-//   }
-//   export default Comp4;
-//   export {nameContext};
+const Comp4=()=>{
+    return(
+      <>
+      <h1>compnent -3</h1>
+      {/* <h1>hello khushi:{user}</h1> */}
+      <Comp5/>
+      </>
+    )
+  }
+  export default Comp4;
