@@ -22,7 +22,7 @@ const Layout = () => {
                             <Nav.Link as={Link} to="display">Display</Nav.Link>
                             <Nav.Link as={Link} to="searchData">SearchData</Nav.Link>
                             <Nav.Link as={Link} to="update">Update</Nav.Link>
-                            <Nav.Link as={Link} to="editData">EditData</Nav.Link>
+                            <Nav.Link as={Link} to="editdata">EditData</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

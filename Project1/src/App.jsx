@@ -6,7 +6,8 @@ import InsertData from "./pages/InsertData";
 import Display from "./pages/Display";
 import SearchData from "./pages/SearchData";
 import Update from "./pages/Update";
-import EditeData from "./pages/EditeData";
+import EditData from "./pages/EditeData";
+
 
 
 
@@ -25,7 +26,7 @@ const App=()=>{
           <Route path="searchData" element={<SearchData/>}/>
          
           <Route path="update" element={<Update/>}/>
-        <Route path="edite" element={<EditeData/>}/>
+        <Route path="editdata" element={<EditData/>}/>
 
 
             </Route>

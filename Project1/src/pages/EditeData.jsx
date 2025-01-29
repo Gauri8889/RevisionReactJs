@@ -35,16 +35,22 @@ const EditData=()=>{
 
     return(
         <>
+        <div style={{marginTop:"50px", backgroundColor:"pink", height:"350px", width:"400px"}}>
           <h1> Edit data {id}</h1>
           Edit Rollno : <input type="text" name="rollno" value={mydata.rollno} onChange={handleInput} />
           <br/>
+          <br />
           Edit Name : <input type="text" name="name" value={mydata.name} onChange={handleInput} />
           <br/>
+          <br />
           Edit City : <input type="text" name="city" value={mydata.city} onChange={handleInput} />
           <br/>
+          <br />
           Edit Fees : <input type="text" name="fees" value={mydata.fees} onChange={handleInput} />
           <br/>
+          <br />
           <button onClick={handleSubmit}> Edite Save!</button>
+          </div>
         </>
     )
 }
