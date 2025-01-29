@@ -15,3 +15,9 @@ const App=()=>{
     )
 }
 export default App;
+
+const expensiveFunction = (num) =>{
+    console.log(`Calculating...`);
+    for(let i=0; i<100000000; i++){}
+    return num;
+}

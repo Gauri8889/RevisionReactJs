@@ -55,7 +55,7 @@ const ProductData=[
         "price":9800,
         "images":"https://m.media-amazon.com/images/I/61RVJ1RwrYL._SX679_.jpg"
     },
-    
+        
 ]
 
 export default ProductData;

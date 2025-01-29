@@ -1,0 +1,53 @@
+{
+  "student": [
+    {
+      "id": "0939",
+      "rollno": "1002",
+      "name": "sakshi",
+      "city": "indore",
+      "fees": "50000"
+    },
+    {
+      "id": "28f0",
+      "rollno": "1002",
+      "name": "sakshi",
+      "city": "indore",
+      "fees": "50000"
+    },
+    {
+      "id": "e332",
+      "rollno": "1002",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "86868"
+    },
+    {
+      "id": "8297",
+      "rollno": "1001",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "676"
+    },
+    {
+      "id": "4b9f",
+      "rollno": "123",
+      "name": "ashafak",
+      "city": "nanded",
+      "fees": "12222"
+    },
+    {
+      "id": "7955",
+      "rollno": "1001",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "5645"
+    },
+    {
+      "id": "71cb",
+      "rollno": "1001",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "5645"
+    }
+  ]
+}
