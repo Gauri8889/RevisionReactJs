@@ -1,34 +1,6 @@
 {
   "student": [
     {
-      "Rollno": "102",
-      "name": "Addi jain",
-      "city": "Indore",
-      "fees": "40000",
-      "id": "2fd6"
-    },
-    {
-      "Rollno": "103",
-      "name": "Addi jain",
-      "city": "Indore",
-      "fees": "40000",
-      "id": "926e"
-    },
-    {
-      "Rollno": "104",
-      "name": "Addi jain",
-      "city": "Indore",
-      "fees": "40000",
-      "id": "d2d2"
-    },
-    {
-      "Rollno": "105",
-      "name": "Addi jain",
-      "city": "Indore",
-      "fees": "40000",
-      "id": "1071"
-    },
-    {
       "id": "cb72",
       "rollno": "1002",
       "name": "sakshi",
