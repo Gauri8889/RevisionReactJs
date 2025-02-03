@@ -1,11 +1,14 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Layout from "./Layout";
-import Home from "./pages/Home";
+
 import Insert from "./pages/Insert";
 import Display from "./pages/Display";
 import Search from "./pages/Search";
 import Update from "./pages/update";
-import EditeData from "./pages/EditeData";
+import EditData from "./pages/EditData";
+import Counter from "./pages/Counter";
+import ColorChange from "./pages/ColorChange";
+
 
 
 const App=()=>{
@@ -15,13 +18,14 @@ const App=()=>{
     <Routes>
       
       <Route path="/" element={<Layout/>}>
-      <Route index element={<Home/>} />
-      <Route path="home" element={<Home/>}/>
+      <Route index element={<Counter/>} />
+      <Route path="counter" element={<Counter/>}/>
       <Route path="insert" element={<Insert/>}/>
       <Route path="Display" element={<Display/>}/>
       <Route path="search" element={<Search/>}/>
       <Route path="update" element={<Update/>}/>
-      <Route path="editeData" element={<EditeData/>}/>
+      <Route path="/editdata/:id" element={<EditData/>}/>
+      <Route path="colorchange" element={<ColorChange/>}/>
       </Route>
 
     </Routes>

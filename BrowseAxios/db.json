@@ -2,10 +2,10 @@
   "student": [
     {
       "id": "cb72",
-      "rollno": "1002",
-      "name": "sakshi",
-      "city": "indore",
-      "fees": "50000"
+      "rollno": "1005",
+      "name": "ritika",
+      "city": "up",
+      "fees": "350000"
     },
     {
       "id": "0939",
@@ -61,6 +61,20 @@
       "rollno": "1001",
       "name": "gauri dahake",
       "city": "bhopal",
+      "fees": "5645"
+    },
+    {
+      "id": "ef5f",
+      "rollno": "1001",
+      "name": "gauri dahake",
+      "city": "bhopal",
+      "fees": "5645"
+    },
+    {
+      "id": "386d",
+      "rollno": "1008",
+      "name": "prgya",
+      "city": "betul",
       "fees": "5645"
     }
   ]

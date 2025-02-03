@@ -1,23 +1,24 @@
-const App=()=>{
+// const App=()=>{
   
-  const getVal=(e)=>{
-    let name=e.target.name;
-    let value = e.target.value;
-    console.log( {[name]: value} );
+//   const getVal=(e)=>{
+//     let name=e.target.name;
+//     let value = e.target.value;
+//     console.log( {[name]: value} );
     
    
-  }
-  return(
-    <>
-   <h1> wecome to Cybrom App</h1>
-    Enter name : <input type="text" name="stunm" onChange={getVal} />
-    <br/>
-    Enter city : <input type="text" name="city" onChange={getVal}/>
-    <br />
-    </>
-  )
-}
- export default App;
+//   }
+//   return(
+//     <>
+//    <h1> wecome to Cybrom App</h1>
+//     Enter name : <input type="text" name="stunm" onChange={getVal} />
+//     <br/>
+//     Enter city : <input type="text" name="city" onChange={getVal}/>
+//     <br />
+  
+//     </>
+//   )
+// }
+//  export default App;
 
 
 
@@ -35,7 +36,7 @@ const App=()=>{
 //   return(
 //     <>
 //    <h1> wecome to Cybrom App</h1>
-//     <button onClick="mybtn1" value="bplbutton" onClick={display}>Click here</button>
+//     <button onClick="mybtn1" value="bplbutton" onChange={display}>Click here</button>
 
 //     </>
 //   )
@@ -50,21 +51,21 @@ const App=()=>{
 
 
 
-// const App=()=>{
+const App=()=>{
   
-//   const myCybrom=(clg,e)=>{
+  const myCybrom=(clg,e)=>{
     
-//     alert(`My college ${clg} my Event : ${e.type}`)
-//   }
-//   return(
-//     <>
-//    <h1> wecome to Cybrom App</h1>
-//     <button onClick={(e)=>{myCybrom("JLU",e)}}>Click here</button>
+    alert(`My college ${clg} my Event : ${e.type}`)
+  }
+  return(
+    <>
+   <h1> wecome to Cybrom App</h1>
+    <button onClick={(e)=>{myCybrom("JLU",e)}}>Click here</button>
 
-//     </>
-//   )
-// }
-//  export default App;
+    </>
+  )
+}
+ export default App;
 
 
 
