@@ -1,0 +1,61 @@
+const ProductData=[
+    {
+        "id":1,
+        "name":"Sopha",
+        "brand":"Phircrapft",
+        "price":60000,
+        "images":"https://m.media-amazon.com/images/I/41g8goVyb1L.jpg"
+    },
+    {
+        "id":2,
+        "name":"Sopha",
+        "brand":"ES ESPINHO",
+        "price":20000,
+        "images":"https://m.media-amazon.com/images/I/61LiG+ncWyL._SL1067_.jpg"
+    },
+    {
+        "id":3,
+        "name":"Sopha",
+        "brand":"oppo",
+        "price":39000,
+        "images":"https://m.media-amazon.com/images/I/61-mi3PXH2L._SL1000_.jpg"
+    },
+    {
+        "id":4,
+        "name":"Sopha",
+        "brand":"oppo",
+        "price":65000,
+        "images":"https://m.media-amazon.com/images/I/7118UOuiejL._SL1100_.jpg"
+    },
+    {
+        "id":5,
+        "name":"Sopha",
+        "brand":"oppo",
+        "price":45000,
+        "images":"https://m.media-amazon.com/images/I/61EqghtgfDS._SL1076_.jpg"
+    },
+    {
+        "id":6,
+        "name":"mSopha",
+        "brand":"oppo",
+        "price":50000,
+        "images":"https://m.media-amazon.com/images/I/51VqPq-aWKL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+        "id":7,
+        "name":"Sopha",
+        "brand":"oppo",
+        "price":30000,
+        "images":"https://m.media-amazon.com/images/I/81FNxuTn3GL._SL1500_.jpg"
+    },
+    {
+        "id":8,
+        "name":"Sopha",
+        "brand":"oppo",
+        "price":3100,
+        "images":"https://m.media-amazon.com/images/I/51ExXU7Gh1L._SX569_.jpg"
+    },
+        
+]
+
+export default ProductData;

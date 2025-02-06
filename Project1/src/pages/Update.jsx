@@ -57,7 +57,7 @@ const Update=()=>{
         <>
          <h1 style={{marginTop:"50px"}}> Update record!</h1>
          <table width="800" bgcolor="pink">
-            <tr bgcolor="orange">
+            <tr bgcolor="blue">
                 <th>Rollno</th>
                 <th>Name</th>
                 <th>City</th>

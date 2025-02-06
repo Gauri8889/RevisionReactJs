@@ -18,7 +18,8 @@ const InsertData=()=>{
     }
     return(
       <>
-      <h1 style={{marginTop:"50px"}}>Insert data</h1>
+    <div style={{marginTop:"50px", backgroundColor:"green", height:"350px", width:"400px"}}>
+      <h1>Insert data</h1>
       Enter Rollno : <input type="text" name="rollno" onChange={handleInput}/>
         <br />
         <br/>
@@ -32,6 +33,7 @@ const InsertData=()=>{
       <br />
       <br/>
       <button onClick={handleSubmit}>Data save</button>
+     </div>
       </>
     )
   }

@@ -35,7 +35,7 @@ const EditData=()=>{
 
     return(
         <>
-        <div style={{marginTop:"50px", backgroundColor:"pink", height:"350px", width:"400px"}}>
+        <div style={{marginTop:"50px", backgroundColor:"green", height:"350px", width:"400px"}}>
           <h1> Edit data {id}</h1>
           Edit Rollno : <input type="text" name="rollno" value={mydata.rollno} onChange={handleInput} />
           <br/>

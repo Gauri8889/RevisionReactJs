@@ -32,7 +32,7 @@ const SearchData=()=>{
         <button onClick={handleSubmit}>Search Data</button>
         <hr  size="4" color="red"/>
          <table width="400" border="1" bgcolor="yellow">
-         <tr bgcolor="orange" border="2px">
+         <tr bgcolor="green" border="2px">
             <th>Rollno</th>
             <th>Name</th>
             <th>city</th>

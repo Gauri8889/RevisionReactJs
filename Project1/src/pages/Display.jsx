@@ -33,7 +33,7 @@ import { useState,useEffect } from "react";
         <>
             <div style={{marginTop:"50px"}}>
         <table width="800" border="1" bgcolor="yellow">
-                <tr bgcolor="orange">
+                <tr bgcolor="green">
                     <th>Rollno</th>
                     <th>Name</th>
                     <th>City</th>

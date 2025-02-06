@@ -26,7 +26,7 @@ const App=()=>{
           <Route path="searchData" element={<SearchData/>}/>
          
           <Route path="update" element={<Update/>}/>
-        <Route path="editdata" element={<EditData/>}/>
+          <Route path="/editdata/:id" element={<EditData />} />
 
 
             </Route>

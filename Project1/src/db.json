@@ -48,6 +48,20 @@
       "name": "gauri dahake",
       "city": "bhopal",
       "fees": "5645"
+    },
+    {
+      "id": "bfea",
+      "rollno": "1009",
+      "name": "Ankita",
+      "city": "waghoda",
+      "fees": "768768"
+    },
+    {
+      "id": "6a33",
+      "stdid": "1001",
+      "name": "gauri dahake",
+      "course": "BCS cs",
+      "fees": "68678"
     }
   ]
 }
