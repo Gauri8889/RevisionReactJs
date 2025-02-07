@@ -1,10 +1,12 @@
+import { FaCartShopping } from "react-icons/fa6";
 const Header=()=>{
     return(
         <>
         
         <div id="header">
-            <h1>welcome to my website</h1>
+            <FaCartShopping />
         </div>
+       
         </>
     )
 }

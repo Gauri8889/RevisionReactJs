@@ -1,4 +1,6 @@
-const ProductData=[
+{
+
+"product":[
     {
         "id":1,
         "name":"Sopha",
@@ -53,9 +55,9 @@ const ProductData=[
         "name":"Sopha",
         "brand":"oppo",
         "price":3100,
-        "images":"https://m.media-amazon.com/images/I/51ExXU7Gh1L._SX569_.jpg"
-    },
+        "images":"https://m.media-amazon.com/images/I/51t2p5n6fgL._SX300_SY300_QL70_FMwebp_.jpg"
+    }
         
 ]
 
-export default ProductData;
+}

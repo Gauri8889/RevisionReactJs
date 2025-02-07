@@ -6,29 +6,51 @@ import b1 from "../images/ban1.jpg";
 import b2 from "../images/ban2.jpg";
 import b3 from  "../images/ban3.jpg";
 
-import ProductData from '../ProductData';
-
+import axios from 'axios';
+import { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { useSelector,useDispatch } from 'react-redux';
+import { addtoCart } from '../cartSlice';
+
 
 const Home=()=>{
-    
+  const [prodata, setProData]= useState([]);
+  const dispatch= useDispatch();
+  const loadData=async()=>{
+      let api="http://localhost:3000/product";
+      const response= await axios.get(api);
+      console.log(response.data);
+      setProData(response.data);
+    }
+    useEffect(()=>{
+      loadData();
+  }, [])
+  
   const ans=ProductData.map((key)=>{
 
     return(
         <>
-         <Card style={{ width: '18rem'}} className='proImage'>
-          <Card.Img variant="top" src={key.images} style={{height:"400px",width:"16rem"}}/>
-           <Card.Body>
-             <Card.Title> {key.name} </Card.Title>
-             <Card.Text>
-             Brand : {key.brand}
-             <br />
-             Price : {key.price}
-            </Card.Text>
-    <Button variant="primary">Add to Cart</Button>
+
+
+<Card style={{ width: '18rem', marginTop:'30px'}} className='proImage'>
+  <Card.Img 
+    variant="top" 
+    src={key.images} 
+    style={{ height: "400px", width: "100%" }} // Adjust width to fill container
+  />
+  <Card.Body>
+    <Card.Title>{key.name}</Card.Title>
+    <Card.Text>
+      Brand: {key.brand}
+      <br />
+      Price: {key.price}
+    </Card.Text>
+    <Button variant="primary" onClick={()=>{dispatch(addtoCart({id:kry.id,name:key.name,desc:key.description,price:key.price,image:key.image,qnty:1}))}}>
+      Add to Cart</Button>
   </Card.Body>
 </Card>
+
         
         
         </>
