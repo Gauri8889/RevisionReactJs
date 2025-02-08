@@ -1,16 +1,14 @@
 
 import Carousel from 'react-bootstrap/Carousel';
-
-
 import b1 from "../images/ban1.jpg";
 import b2 from "../images/ban2.jpg";
-import b3 from  "../images/ban3.jpg";
-
-import axios from 'axios';
+import b3 from "../images/ban3.jpg";
+import axios from "axios";
 import { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { useSelector,useDispatch } from 'react-redux';
+
+import { useSelector, useDispatch } from 'react-redux';
 import { addtoCart } from '../cartSlice';
 
 
@@ -46,7 +44,7 @@ const Home=()=>{
       <br />
       Price: {key.price}
     </Card.Text>
-    <Button variant="primary" onClick={()=>{dispatch(addtoCart({id:kry.id,name:key.name,desc:key.description,price:key.price,image:key.image,qnty:1}))}}>
+    <Button variant="primary" onClick={()=>{dispatch(addtoCart({id:kry.id,name:key.name,desc:key.description,price:key.price,image:key.image}))}}>
       Add to Cart</Button>
   </Card.Body>
 </Card>

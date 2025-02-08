@@ -1,0 +1,69 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Sopha",
+        "brand": "Phircrapft",
+        "image": "https://m.media-amazon.com/images/I/41g8goVyb1L.jpg",
+        "description": "Apple's flagship smartphone with A16 Bionic chip and ProMotion display.",
+        "price": 70000
+      },
+      {
+        "id": 2,
+        "name": "Sopho",
+        "brand": "Phircrapft",
+        "image": "https://m.media-amazon.com/images/I/61LiG+ncWyL._SL1067_.jpg",
+        "description": "Samsung's top-tier smartphone with 200MP camera and S Pen support.",
+        "price": 45000
+      },
+      {
+        "id": 3,
+        "name": "Sopha",
+        "brand": "ES ESPINHO",
+        "image": "https://m.media-amazon.com/images/I/61-mi3PXH2L._SL1000_.jpg",
+        "description": "Google's AI-powered smartphone with Tensor G2 chip and amazing camera capabilities.",
+        "price": 35000
+      },
+      {
+        "id": 4,
+        "name": "Sopha",
+        "brand": "ES ESPINHO",
+        "image": "https://m.media-amazon.com/images/I/7118UOuiejL._SL1100_.jpg",
+        "description": "OnePlus flagship with Snapdragon 8 Gen 2 and Hasselblad cameras.",
+        "price": 40000
+      },
+      {
+        "id": 5,
+        "name": "Sopha",
+        "brand": "ES ESPINHOi",
+        "image": "https://m.media-amazon.com/images/I/51VqPq-aWKL._SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Xiaomi's premium phone with Leica camera and Snapdragon 8 Gen 2.",
+        "price": 22000
+      },
+      {
+        "id": 6,
+        "name": "Sopha",
+        "brand": "Phircrapft",
+        "image": "https://m.media-amazon.com/images/I/51VqPq-aWKL._SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Xiaomi's premium phone with Leica camera and Snapdragon 8 Gen 1.",
+        "price": 20000
+      },
+      {
+        "id": 7,
+        "name": "Sopha",
+        "brand": "Phircrapft",
+        "image": "https://m.media-amazon.com/images/I/81FNxuTn3GL._SL1500_.jpg",
+        "description": "Xiaomi's premium phone with Multi Color Technology and its 120Hz display.",
+        "price": 18000
+      },
+      {
+        "id": 8,
+        "name": "Sopha",
+        "brand": "Phircrapft",
+        "image": "https://m.media-amazon.com/images/I/51t2p5n6fgL._SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Xiaomi's premium phone with Leica camera and Snapdragon 8 Gen 2.",
+        "price": 23000
+      }
+    ]
+  }
+  

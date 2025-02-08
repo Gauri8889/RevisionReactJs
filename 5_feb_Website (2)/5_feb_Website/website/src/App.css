@@ -1,0 +1,138 @@
+.header{
+  height: 30px;
+  background-color: aqua;
+  text-align: right;
+  padding-right: 30px;
+}
+#topNav{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+}
+.footer {
+  padding-top: 80px;
+  width: 100%;
+  padding-bottom: 100px; 
+ background-color: #212529;
+}
+.footer .footer-cont {
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.footer .footer-cont .footer-row {
+ display: flex;
+ justify-content: center;
+ gap: 40px;
+}
+.footer .footer-cont .footer-row .footer-col {
+ padding-left: 15px;
+ padding-right: 15px;
+}
+.footer .footer-cont .footer-row .footer-col img {
+ height: 36px;
+ width: 170px;
+}
+.footer .footer-cont .footer-row .footer-col p {
+ color: #9fa6bd;
+ margin-top: 30px;
+ line-height: 1.4rem;
+ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer .footer-cont .footer-row .footer-col-1 {
+ display: flex;
+ flex-direction: column;
+ align-items: baseline;
+}
+.footer .footer-cont .footer-row .footer-col-1 h1 {
+ color: white;
+ font-size: 24px;
+ font-weight: 500;
+ margin-bottom: 20px;
+ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer .footer-cont .footer-row .footer-col-1 ul {
+ list-style: none;
+ gap: 10px;
+ display: flex;
+ flex-direction: column;
+}
+.footer .footer-cont .footer-row .footer-col-1 ul li .b {
+ color: #868c98;
+ text-decoration: none;
+ font-size: 15px;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ transition: all 500ms ease;
+}
+.footer .footer-cont .footer-row .footer-col-1 ul li .b:hover{
+ color: red;
+ 
+}
+.footer .footer-cont .footer-row .footer-col-1 ul li #add {
+ color: #9fa6bd;
+}
+.footer .footer-cont .footer-row .footer-col-2 .buttons {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 40px;
+}
+.footer .footer-cont .footer-row .footer-col-2 .buttons input {
+ width: 170px;
+ height: 43px;
+ background-color: #1e293a;
+ border-bottom: none;
+ text-align: center;
+ font-size: 14px;
+}
+.footer .footer-cont .footer-row .footer-col-2 .buttons button {
+ height: 43px;
+ width: 100px;
+ background-color: #0a0f17;
+ border: none;
+ transition: all 500ms ease-in;
+}
+.footer .footer-cont .footer-row .footer-col-2 .buttons button:hover {
+ background-color: red;
+}
+.footer .footer-cont .footer-row .footer-col-2 .buttons button a {
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+ font-size: 14px;
+}
+.footer .footer-cont .footer-row .footer-col-2 img {
+ width: 270px;
+ height: 125px;
+}
+.footer .footer-cont .footer-row-2 {
+ color: #868c98;
+ text-align: center;
+ margin-top: 30px;
+}
+.footer .footer-cont .footer-row-2 i {
+ color: red;
+ margin-left: 2px;
+ margin-right: 2px;
+}
+.footer .footer-cont .footer-row-2 span {
+ color: red;
+}
+
+
+#card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  
+  
+}
+#checkout
+{ 
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
