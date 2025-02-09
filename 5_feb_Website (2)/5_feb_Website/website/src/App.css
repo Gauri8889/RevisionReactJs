@@ -129,10 +129,15 @@
   
   
 }
-#checkout
-{ 
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
+#chkout
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#paymethod
+{
+    display: flex;
 }

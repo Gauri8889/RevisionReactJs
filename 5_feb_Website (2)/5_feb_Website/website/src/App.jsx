@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Cart from './pages/Cart';
 import CheckOut from './pages/CheckOut';
+import PayComplete from './pages/PayComplete';
+
+
 
 function App() {
   
@@ -21,6 +24,8 @@ function App() {
          <Route path='about' element={<About/>}/>
          <Route path='cart' element={<Cart/>}/>
         <Route path='checkout'element={<CheckOut/>}/>
+        <Route path='paycomplete' element={<PayComplete/>}/>
+     
         </Route>
        </Routes>
       
