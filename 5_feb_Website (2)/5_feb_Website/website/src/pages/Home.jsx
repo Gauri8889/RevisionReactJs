@@ -1,9 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-
 import axios from 'axios';
-import b1 from "../images/ban1.jpg";
 import { useEffect ,useState} from 'react';
-
+import b1 from "../images/ban1.jpg";
 import b2 from "../images/ban2.jpg";
 import b3 from "../images/ban3.jpg";
 
@@ -12,13 +10,15 @@ import Card from 'react-bootstrap/Card';
 import Counter from '../components/Counter';
 import { addtoCart } from './cartSlice';
 import { useSelector,useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 const Home =()=>{
     const[myData,setMyData] = useState([]);
     const dispatch = useDispatch();
+    const navigate=useNavigate();
     const loadData = async()=>{
         let api = "http://localhost:3000/products";
-        let res = await axios.get(api).then((r)=>{
-            setMyData(r.data);
+        let res = await axios.get(api).then((res)=>{
+            setMyData(res.data);
         })
 
     }
@@ -30,7 +30,8 @@ const Home =()=>{
         return(
             <>
                <Card style={{ width: '20rem',marginTop:"30px",marginBottom:"15px", display:"flex",justifyContent:"center" }}>
-      <Card.Img variant="top" src= {key.image} style={{height:"400%",width:"100%"}} />
+      <Card.Img variant="top" src= {key.image} style={{height:"400%",width:"100%"}} 
+      onClick={()=>{navigate(`/prodtail/${key.id}`)}}/>
       <Card.Body>
         <Card.Title>{key.name}</Card.Title>
         <Card.Text>

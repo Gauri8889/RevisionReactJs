@@ -6,7 +6,7 @@ const PayComplete=()=>{
         <>
         
             <>
-                <h1> Thanks Your Payment Done!!!</h1>   
+                <h1 align='center'> Thanks Your Payment Done!!!</h1>   
             </>
         
         </>
