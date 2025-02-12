@@ -2,8 +2,7 @@ import Data from "./Data";
 import Footer from "./Footer";
 import Header from "./Header";
 const App=()=>{
-  
-  return(
+return(
     <>
     {/* <h1>we are developer</h1> */}
     <Data/>

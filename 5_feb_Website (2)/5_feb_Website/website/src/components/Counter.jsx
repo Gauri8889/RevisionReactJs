@@ -1,7 +1,4 @@
-
-
 import Pagination from 'react-bootstrap/Pagination';
-
 const Counter =()=>{
     return(
         <>
@@ -27,5 +24,4 @@ const Counter =()=>{
       </>
     )
 }
-
 export default Counter;
